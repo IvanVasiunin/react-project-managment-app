@@ -1,16 +1,12 @@
-export const App = () => {
+import { useState } from 'react';
+import ProjectSidebar from './ProjectsSidebar';
+
+function App() {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <main className="h-screen my-8 flex gap-8">
+      <ProjectSidebar />
+    </main>
   );
-};
+}
+
+export default App;
