@@ -16,16 +16,16 @@ const NewTask = ({ onAdd }) => {
   }
 
   return (
-    <div className="flex items-center gap-4">
+    <div className="flex items-center justify-between gap-4">
       <input
         onChange={handleChange}
         value={enteredTask}
-        className="w-64 px-2 py-1 rounded-sm bg-stone-200"
+        className="w-2/3 px-2 py-1 rounded-sm bg-stone-200"
         type="text"
       />
       <button
         onClick={handleClick}
-        className="text-stone-700 hover:text-red-500"
+        className="text-stone-700 hover:text-red-500 text-sm pr-4 text-right w-1/4 sm:text-base md:text-lg"
       >
         Add task
       </button>

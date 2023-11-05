@@ -41,8 +41,8 @@ const NewProject = ({ onAdd, onCancel }) => {
           Please make sure you provide a valid value for every input field.
         </p>
       </Modal>
-      <div className="w-[35rem] mt-16">
-        <menu className="flex items-center justify-end gap-4 my-4">
+      <div className="mt-14 px-4 sm:pl-0 sm:pr-8 sm:mt-24 w-2/3 lg:w-3/4 xl:w-4/5 2xl:w-5/6">
+        <menu className="flex items-center justify-end gap-4 my-3 md:w-[30rem] lg:w-[40rem] 2xl:w-[50rem] mx-auto">
           <li>
             <button
               onClick={onCancel}
@@ -54,13 +54,13 @@ const NewProject = ({ onAdd, onCancel }) => {
           <li>
             <button
               onClick={handleSave}
-              className="px-6 py-2 rounded-md bg-stone-800 text-stone-50 hover:bg-stone-950"
+              className="sm:px-6 px-5 py-2 rounded-md bg-stone-800 text-stone-50 hover:bg-stone-950"
             >
               Save
             </button>
           </li>
         </menu>
-        <div>
+        <div className='md:w-[30rem] lg:w-[40rem] 2xl:w-[50rem] mx-auto'>
           <Input ref={title} label="Title" />
           <Input ref={description} label="Description" isTextArea />
           <Input type="date" ref={dueDate} label="Due Date" />
