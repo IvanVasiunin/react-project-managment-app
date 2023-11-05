@@ -15,3 +15,10 @@ In order to run the project:
 - Clone the project to your computer
 - Install all dependencies with: npm i
 - To start your project, use the command: npm run dev
+
+## Stack and Tools
+
+- HTML5
+- CSS3
+- Javascript
+- React.js (useState, useRef, useImperativeHandle, forwardRef, createPoral)
