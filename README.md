@@ -19,6 +19,6 @@ In order to run the project:
 ## Stack and Tools
 
 - HTML5
-- CSS3
+- TailwindCSS
 - Javascript
 - React.js (useState, useRef, useImperativeHandle, forwardRef, createPoral)
