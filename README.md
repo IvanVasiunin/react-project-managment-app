@@ -13,8 +13,8 @@ This project was created with
 
 In order to run the project:
 - Clone the project to your computer
-- Install all dependencies with: npm i
-- To start your project, use the command: npm run dev
+- Install all dependencies with: <code>npm install</code>
+- To start your project, use the command: <code>npm start</code>
 
 ## Stack and Tools
 
