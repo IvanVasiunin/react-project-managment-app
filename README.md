@@ -6,6 +6,10 @@ A project accounting application with the ability to create/delete a project and
     <img src="https://github.com/IvanVasiunin/react-project-managment-app/blob/main/assets/app_UI.png" alt="certificate" />
 </div>
 
+## Demo
+
+<a href="https://ivanvasiunin.github.io/react-project-managment-app/">Check demo here</a>
+
 ## For developers
 
 This project was created with
